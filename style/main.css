@@ -1,0 +1,141 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --laranja: #fa762a;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+header{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #23252b;
+    height: 60px;
+    padding: 15px;
+}
+
+
+h2{
+    color: var(--laranja);
+    font-family: 'Arial-Black';
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+h2:hover{
+    color: white;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 5%;
+}
+.icones i{
+    cursor: pointer;
+    size: 5x;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.btn{
+    background-color: #23252b;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-right: 12px;
+    width: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+button:hover{
+    background-color:rgba(255,255,255, 0.3);
+    
+}
+.btn:focus, .btn:active{
+    background-color: #213944;
+    color: white;
+}
+
+
+.owl-one .item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+    height: 40%;
+    
+}
+.owl-theme{
+    background-color: #fa762a;
+}
+
+.carousel-rec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rec-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    width: 80%;
+}
+.owl-two{
+    margin-top: 20px;
+}
+.anime-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
